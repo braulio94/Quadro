@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="tweet-composer-2.2.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/aa4723bd22b93c1aa6b35ef5fdcd2b6638595fc7/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/aa4723bd22b93c1aa6b35ef5fdcd2b6638595fc7/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter.sdk.android/tweet-composer/2.2.0/1046426bbeef663f11c6c5091fbfe60fc4ed297c/tweet-composer-2.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
