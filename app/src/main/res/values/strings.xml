@@ -6,23 +6,14 @@
     <string name="firebase_error_login">Error ao iniciar sessão</string>
     <string name="action_settings">Definições</string>
     <string name="action_privacy">Privacidade</string>
-    <string name="action_move">Proximo</string>
     <string name="action_sign_out">Sair</string>
     <string name="loading">Carregando…</string>
-    <string name="success">Sucesso</string>
-    <string name="error">Erro</string>
-    <string name="required">Obrigatorio</string>
-    <string name="text_data2">Occorreu um erro ao tentar registar-se. Porfavor, Tente novamente ou use um email diferente.</string>
     <string name="explore">Explorar</string>
-    <string name="response">Resposta</string>
-    <string name="activity">Actividade</string>
     <string name="category">Categoria</string>
     <string name="about">Sobre</string>
-    <string name="ok">OK</string>
     <string name="divider">"  |  "</string>
 
     <string name="enter_full_name">Nome Completo</string>
-    <string name="job_position">Posicao do Trabalho</string>
     <string name="location">Localização</string>
     <string name="personal_details">Detalhes Pessoais</string>
     <string name="day">Dia</string>
@@ -46,29 +37,19 @@
     <string name="company">Organisação</string>
     <string name="categoria">Categoria</string>
 
-    <string name="app_user_name">Braulio Cassule</string>
     <string name="app_user_age">22</string>
     <string name="comma">", "</string>
-    <string name="job_title">Android Developer</string>
-    <string name="user_location">Luanda, Angola</string>
     <string name="about_me">Sobre Me</string>
     <string name="birth_date">Data de Nascimento</string>
     <string name="heighting">Ocupação</string>
 
-    <string name="first_name">Primeiro Nome</string>
-    <string name="last_name">Ultimo nome</string>
     <string name="email">Email</string>
-    <string name="password">Palavra-Passe</string>
-    <string name="phone_number">Numero de Telefone</string>
-    <string name="female">F</string>
-    <string name="male">M</string>
 
     <string name="email_address1">brauliowayne@hotmail.com</string>
     <string name="email_address2">brauliocassule94@gmail.com</string>
-    <string name="login_anonymous">Entrar</string>
     <string name="login_google">Entrar com Google</string>
     <string name="login_facebook">Entrar com Facebook</string>
-    <string name="register">Registrar</string>
+    <string name="logout_facebook">Entrar com Facebook</string>
     <string name="save">Salvar</string>
     <string name="cancel">Cancelar</string>
 
@@ -334,13 +315,10 @@
     <string name="ig">"@braulio_113"</string>
     <string name="fb">Braulio Cassule</string>
 
-    <string name="born">11 March 1994</string>
-    <string name="height">1.65 m</string>
     <string name="text_data">
         Your info text goes here. Loremipsum dolor sit amet, consecteturn adipisicing elit, sed do eiusmod.
         Your info text goes here. Loremipsum dolor sit amet, consecteturn adipisicing elit, sed do eiusmod.
     </string>
-    <string name="title_activity_auth">AuthActivity</string>
     <array name="month">
         <item>Month</item>
         <item>January</item>
@@ -358,8 +336,6 @@
     </array>
     <string name="title_activity_user">Usuario</string>
     <string name="title_activity_home">Casa</string>
-    <string name="question1">Qual e o teu nome?</string>
-    <string name="question2">Qual e o teu sobrenome?</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="title_activity_info">InfoActivity</string>
@@ -392,20 +368,11 @@
     <string name="heading_recent">Recentes</string>
     <string name="heading_my_posts">Meus Postes</string>
     <string name="heading_my_top_posts">Mais Vistos</string>
-    <string name="label_anonymous_auth">Anonymous Authentication</string>
-    <string name="desc_anonymous_auth">Sign in anonymously and then later upgrade to a full Firebase Auth user..</string>
-    <string name="desc_firebase_lockup">Firebase logo and name</string>
-    <string name="signed_out">Signed Out</string>
     <string name="sign_in">ENTRAR</string>
     <string name="criminal_name">Titlo</string>
     <string name="criminal_details">Detalhes</string>
     <string name="write_comment">Escreve um comentario...</string>
     <string name="post_comment">Postar</string>
-    <string name="sign_out">Sign Out</string>
-    <string name="hint_email">Email</string>
-    <string name="hint_password">Password</string>
-    <string name="id_fmt">User ID: %s</string>
-    <string name="email_fmt">Email: %s</string>
     <string name="upload__success">Upload completo</string>
     <string name="upload_failure">Upload falhou. Tenta novamente</string>
     <string name="select_crime">Porfavor, seleciona o tipo de crime</string>

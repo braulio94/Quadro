@@ -21,7 +21,6 @@
             />
 
         <LinearLayout
-            android:id="@+id/star_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignRight="@+id/post_author_layout"

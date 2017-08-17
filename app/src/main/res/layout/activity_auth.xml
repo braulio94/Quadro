@@ -16,8 +16,6 @@
         android:background="@drawable/gradient"
         >
 
-
-
     </LinearLayout>
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"

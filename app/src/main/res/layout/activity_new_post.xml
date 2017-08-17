@@ -15,7 +15,6 @@
         android:id="@+id/my_cutom_toolbar">
 
         <ImageView
-            android:id="@+id/my_back_arrow"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:paddingLeft="@dimen/small_padding"

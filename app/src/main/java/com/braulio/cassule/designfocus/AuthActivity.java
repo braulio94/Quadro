@@ -2,21 +2,12 @@ package com.braulio.cassule.designfocus;
 /**
  * Created by Braulio on 12/5/2016.
  */
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
-import android.content.pm.Signature;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.v7.app.AlertDialog;
-import android.text.Editable;
-import android.text.TextUtils;
-import android.util.Base64;
 import android.util.Log;
 import android.view.View;
-import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -42,26 +33,18 @@ import com.google.firebase.auth.FacebookAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
-import com.google.firebase.auth.UserProfileChangeRequest;
-
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
 
-import cn.refactor.lib.colordialog.PromptDialog;
+public class AuthActivity extends BaseActivity  {
 
-public class AuthActivity extends BaseActivity implements View.OnClickListener{
-
-    private SignInButton mGoogleSignIn;
+    SignInButton mGoogleSignIn;
     private static final int RC_SIGN_IN = 1;
     private GoogleApiClient mGoogleApiClient;
     private static final String TAG = "AuthActivity";
-    private FirebaseAnalytics mFirebaseAnalytics;
-    private EditText mEmailField;
-    private EditText mPasswordField;
+    FirebaseAnalytics mFirebaseAnalytics;
     private FirebaseAuth mAuth;
     private FirebaseAuth.AuthStateListener mAuthListener;
-    private LoginButton loginButton;
+    LoginButton loginButton;
     private CallbackManager callbackManager;
 
     @Override
@@ -69,13 +52,6 @@ public class AuthActivity extends BaseActivity implements View.OnClickListener{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_auth);
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
-        mEmailField = (EditText) findViewById(R.id.edit_text_email);
-        mPasswordField = (EditText) findViewById(R.id.edit_text_password);
-
-        // Buttons
-        findViewById(R.id.login_as_anonymous).setOnClickListener(this);
-        findViewById(R.id.register_as_anonymous).setOnClickListener(this);
-
 
         mAuth = FirebaseAuth.getInstance();
         mAuthListener = new FirebaseAuth.AuthStateListener() {
@@ -116,26 +92,10 @@ public class AuthActivity extends BaseActivity implements View.OnClickListener{
                 .addApi(Auth.GOOGLE_SIGN_IN_API, googleSignInOptions)
                 .build();
 
-        try {
-            PackageInfo info = getPackageManager().getPackageInfo(
-                    "com.braulio.cassule.designfocus",
-                    PackageManager.GET_SIGNATURES);
-            for (Signature signature : info.signatures) {
-                MessageDigest md = MessageDigest.getInstance("SHA");
-                md.update(signature.toByteArray());
-                Log.d("KeyHash:", Base64.encodeToString(md.digest(), Base64.DEFAULT));
-            }
-        } catch (PackageManager.NameNotFoundException e) {
-
-        } catch (NoSuchAlgorithmException e) {
-
-        }
         callbackManager = CallbackManager.Factory.create();
 
         loginButton = (LoginButton) findViewById(R.id.loginButton);
-
         loginButton.setReadPermissions(Arrays.asList("email"));
-
         loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {
@@ -170,13 +130,6 @@ public class AuthActivity extends BaseActivity implements View.OnClickListener{
         });
     }
 
-    private void goMainScreen() {
-        Intent intent = new Intent(this, HomeActivity.class);
-        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-        startActivity(intent);
-    }
-
-
     private void signIn() {
         Intent signInIntent = Auth.GoogleSignInApi.getSignInIntent(mGoogleApiClient);
         startActivityForResult(signInIntent, RC_SIGN_IN);
@@ -193,8 +146,6 @@ public class AuthActivity extends BaseActivity implements View.OnClickListener{
                 // Google Sign In was successful, authenticate with Firebase
                 GoogleSignInAccount account = result.getSignInAccount();
                 firebaseAuthWithGoogle(account);
-            } else {
-
             }
         }
     }
@@ -221,34 +172,6 @@ public class AuthActivity extends BaseActivity implements View.OnClickListener{
                     }
                 });
     }
-    public void getUserName(){
-        AlertDialog.Builder alert = new AlertDialog.Builder(this);
-
-        final EditText edittext = new EditText(AuthActivity.this);
-        alert.setTitle(R.string.question1);
-
-        alert.setView(edittext);
-
-        alert.setPositiveButton("Entrar", new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int whichButton) {
-                //What ever you want to do with the value
-                String YourEditTextValue = edittext.getText().toString();
-
-                if (TextUtils.isEmpty(YourEditTextValue)) {
-                    Toast.makeText(AuthActivity.this, "Qual o teu nome porraaa!!!", Toast.LENGTH_SHORT).show();
-
-                }else{createAccount(YourEditTextValue, mEmailField.getText().toString(), mPasswordField.getText().toString());}
-            }
-        });
-
-        alert.setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int whichButton) {
-                // what ever you want to do with No option.
-            }
-        });
-
-        alert.show();
-    }
 
     @Override
     public void onStart() {
@@ -264,74 +187,6 @@ public class AuthActivity extends BaseActivity implements View.OnClickListener{
         }
     }
 
-    private void createAccount(final String name, String email, String password) {
-        Log.d(TAG, "createAccount:" + email);
-
-        showProgressDialog();
-
-        // [START create_user_with_email]
-        mAuth.createUserWithEmailAndPassword(email, password)
-                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        Log.d(TAG, "createUserWithEmail:onComplete:" + task.isSuccessful());
-                        final FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-
-                        if (!task.isSuccessful()) {
-                            showPromptDlg();
-                        }
-                        if (task.isSuccessful()) {
-                            UserProfileChangeRequest profileUpdates = new UserProfileChangeRequest.Builder()
-                                    .setDisplayName(name)
-                                    .build();
-
-                            user.updateProfile(profileUpdates)
-                                    .addOnCompleteListener(new OnCompleteListener<Void>() {
-                                        @Override
-                                        public void onComplete(@NonNull Task<Void> task) {
-                                            if (task.isSuccessful()) {
-                                                Toast.makeText(AuthActivity.this, "Bem-Vindo", Toast.LENGTH_SHORT).show();
-                                            }
-                                        }
-                                    });
-                            startActivity(new Intent(AuthActivity.this, HomeActivity.class));
-                        }
-                            hideProgressDialog();
-                    }
-                });
-    }
-
-    private void signIn(String email, String password) {
-        Log.d(TAG, "signIn:" + email);
-        if (!validateForm()) {
-            return;
-        }
-        showProgressDialog();
-
-        // [START sign_in_with_email]
-        mAuth.signInWithEmailAndPassword(email, password)
-                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        Log.d(TAG, "signInWithEmail:onComplete:" + task.isSuccessful());
-
-                        // If sign in fails, display a message to the user. If sign in succeeds
-                        // the auth state listener will be notified and logic to handle the
-                        // signed in user can be handled in the listener.
-                        if (!task.isSuccessful()) {
-                            Log.w(TAG, "signInWithEmail:failed", task.getException());
-                            Toast.makeText(AuthActivity.this, R.string.auth_failed,
-                                    Toast.LENGTH_SHORT).show();
-                        }
-
-
-                        hideProgressDialog();
-                        // [END_EXCLUDE]
-                    }
-                });
-        // [END sign_in_with_email]
-    }
-
     @Override
     public void onBackPressed() {
         Intent intent = new Intent(Intent.ACTION_MAIN);
@@ -340,52 +195,4 @@ public class AuthActivity extends BaseActivity implements View.OnClickListener{
         startActivity(intent);
     }
 
-    private void showPromptDlg() {
-        new PromptDialog(this)
-                .setDialogType(PromptDialog.DIALOG_TYPE_WRONG)
-                .setAnimationEnable(true)
-                .setTitleText(getString(R.string.error))
-                .setContentText(getString(R.string.text_data2))
-                .setPositiveListener(getString(R.string.ok), new PromptDialog.OnPositiveListener() {
-                    @Override
-                    public void onClick(PromptDialog dialog) {
-                        dialog.dismiss();
-                    }
-                }).show();
-    }
-
-    private boolean validateForm() {
-        boolean valid = true;
-
-        String email = mEmailField.getText().toString();
-        if (TextUtils.isEmpty(email)) {
-            mEmailField.setError("Obrigatorio");
-            valid = false;
-        } else {
-            mEmailField.setError(null);
-        }
-
-        String password = mPasswordField.getText().toString();
-        if (TextUtils.isEmpty(password)) {
-            mPasswordField.setError("Obrigatorio");
-            valid = false;
-        } else {
-            mPasswordField.setError(null);
-        }
-
-        return valid;
-    }
-
-    @Override
-    public void onClick(View v) {
-        int i = v.getId();
-        if (i == R.id.register_as_anonymous) {
-            if (!validateForm()) {
-                return;
-            }
-            getUserName();
-        } else if (i == R.id.login_as_anonymous) {
-            signIn(mEmailField.getText().toString(), mPasswordField.getText().toString());
-        }
-    }
 }
