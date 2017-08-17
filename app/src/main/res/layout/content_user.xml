@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.braulio.cassule.designfocus.UserActivity"
+    android:weightSum="10">
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+
+        android:background="@color/colorBlack"
+        android:elevation="@dimen/elevation"
+        >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:background="#182128"/>
+
+        <com.gigamole.navigationtabstrip.NavigationTabStrip
+            android:id="@+id/nts_center"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            app:nts_active_color="#fff"
+            app:nts_color="@color/colorAccent"
+            app:nts_corners_radius="3.5dp"
+            app:nts_factor="0.8"
+            app:nts_gravity="bottom"
+            app:nts_inactive_color="#81ffffff"
+            app:nts_titles="@array/titles"
+            app:nts_type="point"
+            app:nts_weight="7dp"/>
+
+    </FrameLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"/>
+
+
+
+</LinearLayout>

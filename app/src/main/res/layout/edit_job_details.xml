@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_marginBottom="@dimen/very_large_margin">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/job_details"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/very_large_text"
+        android:layout_marginLeft="@dimen/very_large_margin"
+        android:layout_marginTop="@dimen/large_margin"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/very_large_margin"
+        android:layout_marginRight="@dimen/very_large_margin"
+        android:layout_marginTop="@dimen/large_margin"
+        android:background="@drawable/background_text"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/medium_padding"
+            android:paddingRight="@dimen/medium_padding">
+
+            <ImageView
+                android:layout_width="@dimen/very_small_icon"
+                android:layout_height="@dimen/very_small_icon"
+                android:layout_marginRight="@dimen/small_margin"
+                android:layout_marginTop="@dimen/medium_margin"
+                android:src="@null" />
+
+            <EditText
+                android:id="@+id/height_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/position"
+                android:textSize="@dimen/medium_text"
+                android:maxLines="1"
+                android:maxLength="50"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/medium_padding"
+            android:paddingRight="@dimen/medium_padding">
+
+            <ImageView
+                android:layout_width="@dimen/very_small_icon"
+                android:layout_height="@dimen/very_small_icon"
+                android:layout_marginRight="@dimen/small_margin"
+                android:layout_marginTop="@dimen/medium_margin"
+                android:src="@null" />
+
+            <EditText
+                android:id="@+id/company_name_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/company"
+                android:textSize="@dimen/medium_text"
+                android:maxLines="1"
+                android:maxLength="50"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/medium_padding"
+            android:paddingRight="@dimen/medium_padding">
+
+            <ImageView
+                android:layout_width="@dimen/very_small_icon"
+                android:layout_height="@dimen/very_small_icon"
+                android:layout_marginRight="@dimen/small_margin"
+                android:layout_marginTop="@dimen/medium_margin"
+                android:src="@null" />
+
+            <EditText
+                android:id="@+id/company_location_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/location"
+                android:textSize="@dimen/medium_text"
+                android:maxLines="1"
+                android:maxLength="50"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/medium_padding"
+            android:paddingRight="@dimen/medium_padding"
+            android:weightSum="5"
+            >
+
+            <ImageView
+                android:layout_width="@dimen/very_small_icon"
+                android:layout_height="@dimen/very_small_icon"
+                android:layout_marginRight="@dimen/small_margin"
+                android:layout_marginTop="@dimen/medium_margin"
+                android:src="@null" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:id="@+id/spinner_job_month"
+                />
+
+            <EditText
+                android:id="@+id/job_year_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/year"
+                android:textSize="@dimen/medium_text"
+                android:layout_weight="2.5"
+                android:inputType="number"
+                android:maxLength="4"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

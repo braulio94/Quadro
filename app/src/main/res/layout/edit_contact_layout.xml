@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_marginBottom="@dimen/very_large_margin">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_details"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/very_large_text"
+        android:layout_marginLeft="@dimen/very_large_margin"
+        android:layout_marginTop="@dimen/large_margin"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/very_large_margin"
+        android:layout_marginRight="@dimen/very_large_margin"
+        android:layout_marginTop="@dimen/large_margin"
+        android:background="@drawable/background_text"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/medium_padding"
+            android:paddingRight="@dimen/medium_padding">
+
+            <ImageView
+                android:layout_width="@dimen/very_small_icon"
+                android:layout_height="@dimen/very_small_icon"
+                android:layout_marginRight="@dimen/small_margin"
+                android:layout_marginTop="@dimen/medium_margin"
+                android:src="@null" />
+
+            <EditText
+                android:id="@+id/home_email_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email_optional_home"
+                android:inputType="textEmailAddress"
+                android:textSize="@dimen/medium_text"
+                android:maxLines="1"
+                android:maxLength="50"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/medium_padding"
+            android:paddingRight="@dimen/medium_padding">
+
+            <ImageView
+                android:layout_width="@dimen/very_small_icon"
+                android:layout_height="@dimen/very_small_icon"
+                android:layout_marginRight="@dimen/small_margin"
+                android:layout_marginTop="@dimen/medium_margin"
+                android:src="@null" />
+
+            <EditText
+                android:id="@+id/home_phone_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/phone_optional_home"
+                android:inputType="phone"
+                android:textSize="@dimen/medium_text" android:maxLines="1"
+                android:maxLength="50"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/add_more_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_more"
+        android:layout_marginLeft="@dimen/very_large_margin"
+        android:layout_marginRight="@dimen/very_large_margin"
+        android:drawableStart="@drawable/ic_add_black_24dp"
+        android:paddingLeft="@dimen/large_padding"
+        style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+        android:onClick="addMoreContact"/>
+
+    <LinearLayout
+        android:id="@+id/more_contact_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/very_large_margin"
+        android:layout_marginRight="@dimen/very_large_margin"
+        android:layout_marginTop="@dimen/large_margin"
+        android:background="@drawable/background_text"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/medium_padding"
+            android:paddingRight="@dimen/medium_padding">
+
+            <ImageView
+                android:layout_width="@dimen/very_small_icon"
+                android:layout_height="@dimen/very_small_icon"
+                android:layout_marginRight="@dimen/small_margin"
+                android:layout_marginTop="@dimen/medium_margin"
+                android:src="@null" />
+
+            <EditText
+                android:id="@+id/work_email_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email_optional_work"
+                android:inputType="textEmailAddress"
+                android:textSize="@dimen/medium_text"
+                android:maxLines="1"
+                android:maxLength="50"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/medium_padding"
+            android:paddingRight="@dimen/medium_padding">
+
+            <ImageView
+                android:layout_width="@dimen/very_small_icon"
+                android:layout_height="@dimen/very_small_icon"
+                android:layout_marginRight="@dimen/small_margin"
+                android:layout_marginTop="@dimen/medium_margin"
+                android:src="@null" />
+
+            <EditText
+                android:id="@+id/work_phone_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/phone_optional_work"
+                android:textSize="@dimen/medium_text"
+                android:inputType="phone"
+                android:maxLines="1"
+                android:maxLength="50"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/very_large_margin"
+        android:layout_marginRight="@dimen/very_large_margin"
+        android:layout_marginTop="@dimen/large_margin"
+        android:background="@drawable/background_text"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/medium_padding"
+            android:paddingRight="@dimen/medium_padding">
+
+            <ImageView
+                android:layout_width="@dimen/very_small_icon"
+                android:layout_height="@dimen/very_small_icon"
+                android:layout_marginRight="@dimen/small_margin"
+                android:layout_marginTop="@dimen/medium_margin"
+                android:src="@drawable/ic_facebook" />
+
+            <EditText
+                android:id="@+id/facebook_name_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/facebook_name"
+                android:textSize="@dimen/medium_text"
+                android:maxLines="1"
+                android:maxLength="50"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:paddingLeft="@dimen/medium_padding"
+            android:paddingRight="@dimen/medium_padding">
+
+            <ImageView
+                android:layout_width="@dimen/very_small_icon"
+                android:layout_height="@dimen/very_small_icon"
+                android:layout_marginRight="@dimen/small_margin"
+                android:layout_marginTop="@dimen/medium_margin"
+                android:src="@null" />
+
+            <EditText
+                android:id="@+id/facebook_link_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/facebook_link"
+                android:textSize="@dimen/medium_text"
+                android:maxLines="1"
+                android:maxLength="100"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/very_large_margin"
+        android:layout_marginRight="@dimen/very_large_margin"
+        android:layout_marginTop="@dimen/large_margin"
+        android:background="@drawable/background_text"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/medium_padding"
+            android:paddingRight="@dimen/medium_padding">
+
+            <ImageView
+                android:layout_width="@dimen/very_small_icon"
+                android:layout_height="@dimen/very_small_icon"
+                android:layout_marginRight="@dimen/small_margin"
+                android:layout_marginTop="@dimen/medium_margin"
+                android:src="@mipmap/ic_instagram" />
+
+            <EditText
+                android:id="@+id/instagram_name_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/insta_user_name"
+                android:textSize="@dimen/medium_text"
+                android:maxLines="1"
+                android:maxLength="50"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/medium_padding"
+            android:paddingRight="@dimen/medium_padding"
+            android:visibility="gone"
+            >
+
+            <ImageView
+                android:layout_width="@dimen/very_small_icon"
+                android:layout_height="@dimen/very_small_icon"
+                android:layout_marginRight="@dimen/small_margin"
+                android:layout_marginTop="@dimen/medium_margin"
+                android:src="@null" />
+
+            <EditText
+                android:id="@+id/instagram_link_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/insta_link"
+                android:textSize="@dimen/medium_text"
+                android:maxLines="1"
+                android:maxLength="100"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

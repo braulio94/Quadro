@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="@color/colorBlack"
+
+    tools:context="com.braulio.cassule.designfocus.InfoActivity">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal"
+        android:elevation="@dimen/elevation"
+        android:background="@color/colorBlack">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/small_padding"
+            android:paddingTop="@dimen/medium_padding"
+            android:paddingBottom="@dimen/medium_padding"
+            android:paddingRight="@dimen/medium_padding"
+            android:src="@drawable/ic_back"
+            android:onClick="close"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="@dimen/medium_padding"
+            android:src="@drawable/ic_more"
+            android:layout_gravity="right"
+            android:onClick="showPopupMenu"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <include layout="@layout/content_info" />
+
+</LinearLayout>

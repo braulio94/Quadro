@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_marginBottom="@dimen/very_large_margin">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/location_details"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/very_large_text"
+        android:layout_marginLeft="@dimen/very_large_margin"
+        android:layout_marginTop="@dimen/large_margin"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/very_large_margin"
+        android:layout_marginRight="@dimen/very_large_margin"
+        android:layout_marginTop="@dimen/large_margin"
+        android:background="@drawable/background_text"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/medium_padding"
+            android:paddingRight="@dimen/medium_padding"
+            android:layout_marginBottom="@dimen/medium_margin">
+
+            <ImageView
+                android:layout_width="@dimen/very_small_icon"
+                android:layout_height="@dimen/very_small_icon"
+                android:layout_marginRight="@dimen/small_margin"
+                android:layout_marginTop="@dimen/medium_margin"
+                android:src="@null"
+                />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/medium_text"
+                android:id="@+id/province_spinner"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/medium_padding"
+            android:paddingRight="@dimen/medium_padding">
+
+            <ImageView
+                android:layout_width="@dimen/very_small_icon"
+                android:layout_height="@dimen/very_small_icon"
+                android:layout_marginRight="@dimen/small_margin"
+                android:layout_marginTop="@dimen/medium_margin"
+                android:src="@null" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/medium_text"
+                android:id="@+id/district_spinner"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

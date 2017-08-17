@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.1_41e0671462d9353e75cdb123960a32c7ba1bf122\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_1c80e0ff6573a478ae1b7e74d03eb199708280d9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.2\f8d87f15b94b8d74e7ccf61d7eedb558811cdb30\converter-gson-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.2_966d7740f15759b707c56f199ad6ad6c8128897f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.twitter.sdk.android\twitter\2.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2b7e936ca11ae0588600beb7388553bda26d7e66">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.twitter.sdk.android-twitter-2.2.0_ef9de2da32a9d80dfaa463ed6472f3bd4d7433d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f2202decfd3849cb1dac1ddc1d6b2a13bc410b1e">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_37e8334a1c0b86ccc88dabf368a60d5a29cfce07\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.twitter.sdk.android\tweet-ui\2.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6888a6faad7690088caf4ce55cde09763d7eefd0">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.twitter.sdk.android-tweet-ui-2.2.0_b6dca164d087c43401f2cf8cca61ccc2acb18f42\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c7ed3fd9d5a9687980dac6c504abd91ad3dfa238">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.0.0_1b4ff3d35cf433d0a32af4fa04bce5016de4ef98\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_4ad21eb23e461e8ea379ef4b18a1acca7abe85e3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.twitter.sdk.android\twitter-core\2.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2a3224154b36aa5bb941f20d1625ba1fb20aa3a7">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.twitter.sdk.android-twitter-core-2.2.0_f1ef5b1e4d16392e6de952edef69000180fa65e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="1cfff5576c33af45c0822287f1c856301be9dbd1">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_7a56f1f958472ce8f2c731719b841c903581b11a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_bf541ab4c2c7e45d5370220191158afe99070956\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_43a2c90c477b99e5f5218cea9bf1cabf08672bca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_b4a6ff373c7fda1861013b20e6dce3d3879625f5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_148e4ffd0b115773b5628e9c99fcb8e7886f9245\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a383a583c346ce8ea5767d77f4fe58e1d8e5f221">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-10.0.0_3206942d70b93708f875ab077567b2b10f9fad73\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3a05b3852a6aec21ea0a6ea4d284ee69c04c55c4">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.0.0_a4369f831c67d4b4897c71345a66b5711747905f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_378f9e64b75747e15178b80ba24e0da4f6e95882\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.1_da580d313c64a83a3b013ec3d0dc0c2ffbb61329\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_4ab6b9e4a461ad921c3f1ae66f119f81ac870be2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="985be85104f6d0c5c5e51e7b7e60d8883a98ac64">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.0.0_7d6b9037e4ce5c1de87e9ecddfb67f06a3456352\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c2376d0ec8dbe85d3446cad64905c0395fbe220e">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-10.0.0_bcb3a9dc715b54aacd69e6994dc484507af36e32\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5ac49e5d5aea8772c8018ce2888145f04c5fe7ca">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-10.0.0_fd8673e80284fc58f25b31d759b3d0a34f7f1886\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.gradle\caches\modules-2\files-2.1\com.twitter\twitter-text\1.13.0\78415b95ae3184c5926d593feab64bfc0b73b2dd\twitter-text-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="78415b95ae3184c5926d593feab64bfc0b73b2dd">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\twitter-text-1.13.0_ebb162d4df7998c85b898ee0680363cfc5b2b554\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_8e8c0357cca0034c7db695c6aad264901e007144\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_6b5dc3cedc0c5d2f0739f30fec3d46a959a1807e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_c9360f111fb429744f97461fb4731713ffbd613c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.github.andyxialm\ColorDialog\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e6518896b6aebba98c81375ce73eca7d5d168bb6">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.andyxialm-ColorDialog-1.0.0_3e4d82f471f85f35904d0df7f0d937efda675388\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2b410ae1fda134f470276365f4b7f846269e0d23">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.0.0_293585cb8612bccae0fad74abe0a2c58bdf60450\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3347c3e7056fabc88bdbd8fdae65ddf2b674d977">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.0.0_ba43004e8e47019b27afcbdd5beb7351b74bb48a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.0.1_b72866d5ede5e3c0f3e79dc8f5a93152f959eca6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_1cb3b35a91b913aebed35dd4bb37a3811e147ee9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.1_3c760cf9fe6f93b735dca3baa916b4eccfdea769\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a61005619e43f203768ff3f224137def6f029e50">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.0.0_cd68dd93271cbd269637162f47c990f5143a89bf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_4ea6d85a7816411e266e607bcc54b8173cde5528\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.firebaseui\firebase-ui-auth\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="312bc30848df24f8de992863408cc46027e29d61">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.firebaseui-firebase-ui-auth-1.0.1_8fdba07f635503f16a2e4ccb01b2d03c94e0e78e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.firebaseui\firebase-ui-database\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b0b0f4f99cf68e748dd123ad553738e4284d4749">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.firebaseui-firebase-ui-database-1.0.1_353cbd129d32e92a05b0006e8ed61c342f2d0533\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.github.devlight.navigationtabstrip\navigationtabstrip\1.0.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6ee92f191bc56ff6479ca27a042e8b8d28b7c809">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.devlight.navigationtabstrip-navigationtabstrip-1.0.4_8f63b6e69429ca12bcd35bf6168f4849c87825e8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.18.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43a08f2cc1bc8e9678b5a1740f3b91b50ab50ac6">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.18.0_b1493fc6e6e78ac287630d98baffe9926939e6aa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.twitter.sdk.android\tweet-composer\2.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4deb6adbe724b17214ded081b0fbfb109a87077e">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.twitter.sdk.android-tweet-composer-2.2.0_93d5e88960c3f504bdc11b10edeb8f1cde49be58\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.2\43eeae0b9fb087bb3194ba59ab63a38a32fbf3e\retrofit-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.2_5432ee36392de04c7fbfbc1bf938d3725f99dd3d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.github.vipulasri\timelineview\1.0.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="116fc70d10b3d70002b051663c7450dcb9c426b7">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.vipulasri-timelineview-1.0.3_8bd9f7c341cfd66393665d4b9613ef9f0dd77613\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_08a4013778e258ec36a48b1c9513a9ab1790692d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_e8468953211e364f9e438ba696eac0b9cb080fc5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.14\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a319fd4d548ba4cc9511561d37109ba922bfbf6a">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.fabric.sdk.android-fabric-1.3.14_cb5ea7ce950dd32a49fc6c1136226b84353de5b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.2.0\f7873a2ebde246a45c2a8d6f3247108b4c88a879\okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.2.0_6edd21d7f8b81fc54aba87ad865a6bb247074134\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="41e39c7ee84e63ae18df6c6ccb96d196996add4c">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-10.0.0_6639495c9c6c9f9e9a9f7018b42f1d9536b84626\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_ebb711bc6327448ae632d85289e97aca215e93ad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.android.support\customtabs\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e2b9f0c5025fb0640ef092b1ca322bf4a4992e1c">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-customtabs-25.0.1_a4641534c9e1aa1e4014ae84b8f3dc5b14e9eddc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_69cd07d6897621ab617322ea8ec14aaa352d7598\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_13ec8e9c12de799e2f477996358a2cfe177c9abc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a18773c279bde7e49e09f621aea613685c108c7f">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-10.0.0_3dda82c5b50faff776ca71b892fa67ba18449691\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.1\b9d63507329a7178e026fc334f87587ee5070ac5\gson-2.6.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.6.1_905bf36eda153a7fe2b86a09406a0effd8eaa8a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="75dbc3537bc912d077b3db2f5ac72d5b43644b2c">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.0_39c7fb45b6d03fce24db2245831e0ea453080f8e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.github.IntruderShanky\FunkyHeader\1.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="10815ddc77b4fbc403b13fcbc6952ae4fb40531c">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.IntruderShanky-FunkyHeader-1.2.1_d6d3effb4b91463d7e641eb2c88c92542b0d797c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ce6e6e59212db0893fc36e5b579cf319a84aade8">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.0.0_a45e9e63d657e2cbee00033af5e45dc28dc7b772\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8bb364f67ec2eba2356872b2b4ddfe8aada2d5ac">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-10.0.0_c1c1acfc9814186f44b33a76ea0e3358259f7765\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_64a5801cd2b71ee1490a6319f6670572fe5fda95\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\Users\Braulio\AndroidStudioProjects\DesignFocus\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_7fb0cc0af426d7ccc2e256cbc4b1bc891722c887\classes.dex" />
+    </item>
+
+</items>

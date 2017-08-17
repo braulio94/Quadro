@@ -1,0 +1,98 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.braulio.cassule.designfocus.AboutFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/small_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_me"
+            android:textColor="@color/colorWhite"
+            android:paddingTop="@dimen/medium_padding"
+            android:paddingLeft="@dimen/large_padding"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/user_about_me_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/text_data"
+            android:textColor="@color/colorWhite"
+            android:paddingTop="@dimen/large_padding"
+            android:paddingLeft="@dimen/large_padding"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/small_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/birth_date"
+            android:textColor="@color/colorWhite"
+            android:paddingTop="@dimen/medium_padding"
+            android:paddingLeft="@dimen/large_padding"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/user_birth_date_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="@dimen/large_padding"
+            />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/small_margin"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/heighting"
+                android:textColor="@color/colorWhite"
+                android:paddingTop="@dimen/medium_padding"
+                android:paddingLeft="@dimen/large_padding"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/user_height_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:paddingLeft="@dimen/large_padding"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_edit" />
+
+</android.support.design.widget.CoordinatorLayout>

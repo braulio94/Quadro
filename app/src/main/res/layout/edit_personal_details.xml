@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_marginBottom="@dimen/very_large_margin"
+    android:layout_marginTop="@dimen/very_large_margin">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/personal_details"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/very_large_text"
+        android:layout_marginLeft="@dimen/very_large_margin"
+        android:layout_marginTop="@dimen/large_margin"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/very_large_margin"
+        android:layout_marginRight="@dimen/very_large_margin"
+        android:layout_marginTop="@dimen/large_margin"
+        android:background="@drawable/background_text"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/medium_padding"
+            android:paddingRight="@dimen/medium_padding"
+            >
+
+            <ImageView
+                android:layout_width="@dimen/very_small_icon"
+                android:layout_height="@dimen/very_small_icon"
+                android:layout_marginRight="@dimen/small_margin"
+                android:layout_marginTop="@dimen/medium_margin"
+                android:src="@null" />
+
+            <EditText
+                android:id="@+id/full_name_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_full_name"
+                android:textSize="@dimen/medium_text"
+                android:maxLines="1"
+                android:maxLength="35"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/medium_padding"
+            android:paddingRight="@dimen/medium_padding"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="@dimen/very_small_icon"
+                android:layout_height="@dimen/very_small_icon"
+                android:layout_marginRight="@dimen/small_margin"
+                android:layout_marginTop="@dimen/medium_margin"
+                android:src="@null"
+                />
+
+            <EditText
+                android:id="@+id/birth_day_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/day"
+                android:textSize="@dimen/medium_text"
+                android:layout_weight="3"
+                android:inputType="number"
+                android:maxLength="2"/>
+
+            <EditText
+                android:id="@+id/birth_month_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/month"
+                android:textSize="@dimen/medium_text"
+                android:layout_weight="3"
+                android:inputType="number"
+                android:maxLength="2"/>
+
+            <EditText
+                android:id="@+id/birth_year_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/year"
+                android:textSize="@dimen/medium_text"
+                android:layout_weight="4"
+                android:inputType="number"
+                android:maxLength="4"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/medium_padding"
+            android:paddingRight="@dimen/medium_padding">
+
+            <ImageView
+                android:layout_width="@dimen/very_small_icon"
+                android:layout_height="@dimen/very_small_icon"
+                android:layout_marginRight="@dimen/small_margin"
+                android:layout_marginTop="@dimen/medium_margin"
+                android:src="@null" />
+
+            <EditText
+                android:id="@+id/job_position_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/heighting"
+                android:textSize="@dimen/medium_text"
+                android:maxLines="1"
+                android:maxLength="50"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/medium_padding"
+            android:paddingRight="@dimen/medium_padding">
+
+            <ImageView
+                android:layout_width="@dimen/very_small_icon"
+                android:layout_height="@dimen/very_small_icon"
+                android:layout_marginRight="@dimen/small_margin"
+                android:layout_marginTop="@dimen/medium_margin"
+                android:src="@null"
+                />
+
+            <EditText
+                android:id="@+id/about_me_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/big_edit_text_height"
+                android:hint="@string/about_me"
+                android:gravity="start"
+                android:textSize="@dimen/medium_text"
+                android:inputType="textMultiLine"
+                android:maxLength="200"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

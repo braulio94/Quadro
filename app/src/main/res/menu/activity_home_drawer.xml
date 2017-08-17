@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_house_black"
+            android:title="@string/title_activity_home" />
+        <item
+            android:id="@+id/explore"
+            android:icon="@drawable/ic_compass"
+            android:title="@string/explore" />
+
+        <item
+            android:id="@+id/activity"
+            android:icon="@drawable/ic_reorder_option"
+            android:title="@string/category" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_information_symbol"
+            android:title="@string/about"
+            />
+    </group>
+
+    <item android:title="@string/title_activity_user">
+        <menu>
+            <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/action_settings" />
+
+            <item
+                android:id="@+id/sign_out"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/action_sign_out" />
+        </menu>
+    </item>
+
+
+</menu>
