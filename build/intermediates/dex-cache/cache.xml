@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\dd46b69e29b6d299ffa9e276b6e466bb95a71d59\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="10815ddc77b4fbc403b13fcbc6952ae4fb40531c">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_317b0620d077db3f160b80338854eb95d5dab15a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\aebf0d937c96e149950f822a5811d95576631400\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e6518896b6aebba98c81375ce73eca7d5d168bb6">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a7d9e4389ccb330aa7e59f2205bea4dc04f72766\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\9874e449892a9e7053598a2e623f4724073ea945\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ee92f191bc56ff6479ca27a042e8b8d28b7c809">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5bfb4f5c7a21a2d72717bcb1858b114b4249016c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.1\b9d63507329a7178e026fc334f87587ee5070ac5\gson-2.6.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.6.1_905bf36eda153a7fe2b86a09406a0effd8eaa8a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\99c062c94d87edc5d0cef37a4d6805afcfb048ea\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_54e86c040aff888df39d49e6e8ce2a7baf26b156\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\427a929fe88e56c3c05eb9c7a1011e96580e39cd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a18773c279bde7e49e09f621aea613685c108c7f">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_61bca17b1b3d9ff4bd634fa33683be8a62a60fa9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\cdf60e591053188a3c948fe810dd8f95b688f29d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bb364f67ec2eba2356872b2b4ddfe8aada2d5ac">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_66fb57acf46c493b4f184070474ea60d952adb39\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_62c5a784aebe3d199dc319c30f32e42ad1d6bd45\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_c9360f111fb429744f97461fb4731713ffbd613c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\7cd821e3cab1e421ecec3dbd8098d5ce1965eb0b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3347c3e7056fabc88bdbd8fdae65ddf2b674d977">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8df92dcb997913695a8777faaa1f91c9512c4616\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\af3d225e1cfce9c78d5dc2e4eec5711cb45fadec\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a383a583c346ce8ea5767d77f4fe58e1d8e5f221">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_48d195b77f46f70b670539083c78cb3ad3402cf9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.2\43eeae0b9fb087bb3194ba59ab63a38a32fbf3e\retrofit-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.2_5432ee36392de04c7fbfbc1bf938d3725f99dd3d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\f9ddd65fdc09af7fb9c706cc28985e5d0ca3770b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="312bc30848df24f8de992863408cc46027e29d61">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fe752618d9987ac70c0242cd740f609b30cf5581\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\aa4723bd22b93c1aa6b35ef5fdcd2b6638595fc7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4deb6adbe724b17214ded081b0fbfb109a87077e">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d167193f05fb5b77d0cee4d403735286219c0d4f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\571040fc08f7e9cb63a4f9ef27412cbafd8eaecd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e8a0f28dd4053337cbe3cc41b942dfea11c6918a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\0bc78a181947c566ae779b7fe8066948f3a2c4ec\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_82698b9d5ba4ce9859e5c5157b62b7e2ed86de23\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\1a33e9b0522844ed3fd3a43fe8df030c90d816c2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a61005619e43f203768ff3f224137def6f029e50">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7b7371af1e13f2e8b5ed148a1ae501c0345cc333\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\8197bf7dbdc643c5be85c3750a16a5b095a378e2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2b7e936ca11ae0588600beb7388553bda26d7e66">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2d3ff39fd2b232607bf607658019e26de55158b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\0b24580157ee1b1dbe943273a2ac2cbd8d697620\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3a05b3852a6aec21ea0a6ea4d284ee69c04c55c4">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_77721d12ff775016519c5cc81188b5cd593f0de3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\511891ff3ab6ef74d82d741e4d4897bf10ddd48d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="807751a24cf96566fd8675517c94d8463cf364db">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dc3fe6260c9d00f15e63c427928a1671aad6a421\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_764f2a7862098b56b8af95a1e614430c6678192c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\9e5abcaabd07f1e8e747b2b33144d0b27d867dd9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_913e5a833661077b436ac199a38e69bf9458ed69\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\da612b43792cda892064db615f20c437353af6b4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2b410ae1fda134f470276365f4b7f846269e0d23">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c2003aa5a63c3caf914f20c7979aee2be08533cd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\fef62e849f0d95f68d12f4bb00e664290aedd545\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ce6e6e59212db0893fc36e5b579cf319a84aade8">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_60b20721b93cdc26fa4fbd4093f140c236c7565a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\31332d08a35fc699c89d661cb6ad33be48840599\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1aa559e66f82352728f08e5354b8b517f0a039d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\21c5b6e3425a71ebb41edfe489de126aff9a9de9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="985be85104f6d0c5c5e51e7b7e60d8883a98ac64">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bb42ead2a3c0584f51bc5ef40a5c2bc2abcab5b5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\91d199e2f3b3a8259786bcd5fea0898f33952fc2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_21a4ab1497c8c242e98291dc1ddb7ad0caf3110c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.gradle\caches\modules-2\files-2.1\com.twitter\twitter-text\1.13.0\78415b95ae3184c5926d593feab64bfc0b73b2dd\twitter-text-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="78415b95ae3184c5926d593feab64bfc0b73b2dd">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\twitter-text-1.13.0_ebb162d4df7998c85b898ee0680363cfc5b2b554\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\9f73308c0129313a4cb8ebb378bd1685f8e0bd7d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="474cccf169297d49fff89fd35b7634a7a9d1031c">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d0ee7622cfe114792996abca877f4cc1be449cc1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\973ef02f387710f3e2ece2c654204fe394ba06af\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="41e39c7ee84e63ae18df6c6ccb96d196996add4c">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_351497a7d861c200ee63214672353c40e068a0ee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\509bfa48c9f1c16360590fb58776325805d58d5e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5ac49e5d5aea8772c8018ce2888145f04c5fe7ca">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e1a9b9e176bd389f48b6ff374d4a26831e1669e7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\bef4d7a6384805da0023c5f8dd743b4e74cc8706\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c7ed3fd9d5a9687980dac6c504abd91ad3dfa238">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_087ce771adc063bb767bb0e8c426b5765c717181\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\93de0b7bb6be3c626787f46c8e0d535e9248904e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_337def95eaf1f2651cceee2ac1269b43aead0d8c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\9ee3cab30ce2c4ccd5bb7d10062c13e33aa14b82\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b0b0f4f99cf68e748dd123ad553738e4284d4749">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_94d06fd4864fbbe2e88758808c060921e1c5caa6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\191911937f93e9f6c8dba049a1f151aa7c7027ba\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a319fd4d548ba4cc9511561d37109ba922bfbf6a">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_897e6f80785280e7453cfa22227ba99a90399464\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\fc3837530e54703d5b165c9d57a469d86858d8b9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a4ee1c36f2bd08434963f1ab69f9984a064f2f4d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\b02073fc7a805eb73c83975acca0f7cf58526f43\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6888a6faad7690088caf4ce55cde09763d7eefd0">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_da3d49024a302a6df480d981305f3046ec916d40\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\026eb966f4d79145ed7bf5f64b24788a8b9cb7af\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2a3224154b36aa5bb941f20d1625ba1fb20aa3a7">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bc2480d2b0f1954a9d2b3165326514921b6dc803\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\569af86e2a6d5dbd30adba6f8eaa50cfba396fb1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0619827112afcc0b7553aeb675cfca1ac40d7be0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\1395e9f532b53b501aa424ce0e01e848840a1d22\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7a7116dbec7cc937a0bfc35125bd61c0d6586489\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_1c80e0ff6573a478ae1b7e74d03eb199708280d9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\2493e9b554b7d4942db977836bf973f45ddc8a54\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a250344e9543c8e473f82d034d82119b9adc7fe7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a47af8ca1469365dee2d79c01e94de9173d55e03">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9b5286d9c7acce064d496e8d2cb46a570c9c3153\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.2\f8d87f15b94b8d74e7ccf61d7eedb558811cdb30\converter-gson-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.2_966d7740f15759b707c56f199ad6ad6c8128897f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.2.0\f7873a2ebde246a45c2a8d6f3247108b4c88a879\okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.2.0_6edd21d7f8b81fc54aba87ad865a6bb247074134\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\68a79d5afebe026e56b65be81baa0390f045e16d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_224e450449c87474e1e0e077c1d86e4a178672d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\00df68828cd3a8ae17a5b3634064bb79478f0836\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c2376d0ec8dbe85d3446cad64905c0395fbe220e">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9235c23371c1fb019fdd25de9b0a264ea9c1b82f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_69cd07d6897621ab617322ea8ec14aaa352d7598\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\38f54bbc2a27568d9afa9f4f1c07bed2ada61ba3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75dbc3537bc912d077b3db2f5ac72d5b43644b2c">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_035625fd8904505c68061c522cec1e13ffd6b33b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\1764aa24718cdd3a06b5b8fe50c74d5c9e1dea2d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cfd5870ebb57ffa42b0a43b05b9f8a109da07d45\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.android\build-cache\b722fa75490c6fba947bd3b4cec00d4edc765853\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="116fc70d10b3d70002b051663c7450dcb9c426b7">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_be8ca13688db91a3f6c1f46b46b02103ae30e40d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Braulio\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\Braulio\Documents\Quadro\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_e8468953211e364f9e438ba696eac0b9cb080fc5\classes.dex" />
+    </item>
+
+</items>

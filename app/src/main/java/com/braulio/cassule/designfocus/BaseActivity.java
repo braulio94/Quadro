@@ -1,10 +1,6 @@
 package com.braulio.cassule.designfocus;
 
 import android.app.ProgressDialog;
-import android.content.Intent;
-import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.support.annotation.VisibleForTesting;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.PopupMenu;
@@ -13,12 +9,13 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import com.facebook.login.LoginManager;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 /**
  * Created by Braulio on 12/3/2016.
- */
+ **/
 
 public class BaseActivity extends AppCompatActivity {
 
@@ -32,15 +29,8 @@ public class BaseActivity extends AppCompatActivity {
 
     public void signOut() {
         mAuth.getInstance().signOut();
+        LoginManager.getInstance().logOut();
     }
-    @Override
-    protected void onResume() {
-        super.onResume();
-        if (mAuthListener != null) {
-            mAuth.addAuthStateListener(mAuthListener);
-        }
-    }
-
 
     public void showPopupMenu(View view) {
         PopupMenu popup = new PopupMenu(this, view);
@@ -51,18 +41,9 @@ public class BaseActivity extends AppCompatActivity {
 
     }
 
-    public void showMenu() {
-        View  view = new View(getBaseContext());
-        PopupMenu popup = new PopupMenu(BaseActivity.this, view);
-        MenuInflater inflater = popup.getMenuInflater();
-        inflater.inflate(R.menu.menu_main, popup.getMenu());
-        popup.setOnMenuItemClickListener(new MyMenuItemClickListener());
-        popup.show();
 
-    }
-
-    public class MyMenuItemClickListener implements PopupMenu.OnMenuItemClickListener {
-        public MyMenuItemClickListener() {
+    private class MyMenuItemClickListener implements PopupMenu.OnMenuItemClickListener {
+        private MyMenuItemClickListener() {
 
         }
 
@@ -103,7 +84,6 @@ public class BaseActivity extends AppCompatActivity {
     }
 
     public String getUid() {
-
         return FirebaseAuth.getInstance().getCurrentUser().getUid();
     }
 }

@@ -1,5 +1,5 @@
 package com.braulio.cassule.designfocus;
-import android.content.Context;
+
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -8,7 +8,6 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -31,7 +30,6 @@ import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 import com.intrusoft.library.FunkyHeader;
 import com.squareup.picasso.Picasso;
-
 import java.util.Calendar;
 
 public class UserActivity extends BaseActivity {
@@ -52,7 +50,6 @@ public class UserActivity extends BaseActivity {
     private static final int GALLERY_INTENT = 2;
     Uri imageUrl;
     private StorageReference mStorage;
-    private static final String TAG = "UserActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -188,13 +185,13 @@ public class UserActivity extends BaseActivity {
     }
 
     private void setUI() {
-        mViewPager.setAdapter(new UserActivity.CustomAdapter(getSupportFragmentManager(), getApplicationContext()));
+        mViewPager.setAdapter(new UserActivity.CustomAdapter(getSupportFragmentManager()));
         mCenterNavigationTabStrip.setViewPager(mViewPager);
     }
 
     private class CustomAdapter extends FragmentPagerAdapter {
         private String fragments[] = {"About","Portfolio","Contact"};
-        public CustomAdapter(FragmentManager supportFragmentManager, Context applicationContext) {
+        private CustomAdapter(FragmentManager supportFragmentManager) {
             super(supportFragmentManager);
         }
         @Override
@@ -210,12 +207,8 @@ public class UserActivity extends BaseActivity {
                     return null;
             }
         }
-        public void close(View v){
-            finish();
-        }
 
         @Override
-        // STOPSHIP: 04/12/2016
         public int getCount() {
             return fragments.length;
         }

@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 /**
  * Created by Braulio on 11/18/2016.
- */
+ **/
 
 public class TimeLineModel implements Serializable{
 

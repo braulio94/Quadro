@@ -1,7 +1,5 @@
 package com.braulio.cassule.designfocus;
-/**
- * Created by Braulio on 12/5/2016.
- */
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -35,6 +33,9 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
 import java.util.Arrays;
 
+/**
+ * Created by Braulio on 12/5/2016.
+ **/
 public class AuthActivity extends BaseActivity  {
 
     SignInButton mGoogleSignIn;
@@ -42,8 +43,8 @@ public class AuthActivity extends BaseActivity  {
     private GoogleApiClient mGoogleApiClient;
     private static final String TAG = "AuthActivity";
     FirebaseAnalytics mFirebaseAnalytics;
-    private FirebaseAuth mAuth;
-    private FirebaseAuth.AuthStateListener mAuthListener;
+    FirebaseAuth mAuth;
+    FirebaseAuth.AuthStateListener mAuthListener;
     LoginButton loginButton;
     private CallbackManager callbackManager;
 
@@ -174,8 +175,8 @@ public class AuthActivity extends BaseActivity  {
     }
 
     @Override
-    public void onStart() {
-        super.onStart();
+    protected void onResume() {
+        super.onResume();
         mAuth.addAuthStateListener(mAuthListener);
     }
 

@@ -16,8 +16,6 @@ import android.widget.Spinner;
 import android.widget.Toast;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -106,7 +104,7 @@ public class NewPostActivity extends BaseActivity implements AdapterView.OnItemS
         final String title = mSpinnerType.getSelectedItem().toString();
         final String body = mBodyField.getText().toString();
         final String criminal = mCriminalNameField.getText().toString();
-        final String auPhoto = user.getPhotoUrl().toString();
+        final String auPhoto = String.valueOf(user.getPhotoUrl());
         final String auName = user.getDisplayName();
         final String auJobTitle = detailsModel.getJobPosition();
         final String aboutAu = detailsModel.getAboutMe();

@@ -2,47 +2,46 @@ package com.braulio.cassule.designfocus;
 
 import com.google.firebase.database.Exclude;
 import com.google.firebase.database.IgnoreExtraProperties;
-
 import java.util.HashMap;
 import java.util.Map;
 
 /**
  * Created by Braulio on 12/7/2016.
- */
+ **/
 @IgnoreExtraProperties
 public class Details {
 
     public String id;
-    public String fullName;
-    public String birthDate;
-    public String birthYear;
-    public String height;
-    public String aboutMe;
-    public String userLocation;
-    public String jobPosition;
-    public String companyName;
-    public String companyLocation;
-    public String jobStartDate;
-    public String homeEmail;
-    public String homePhone;
-    public String workEmail;
-    public String workPhone;
-    public String facebookName;
-    public String facebookLink;
-    public String instaName;
-    public String instaLink;
+    private String fullName;
+    String birthDate;
+    String birthYear;
+    String height;
+    String aboutMe;
+    String userLocation;
+    String jobPosition;
+    private String companyName;
+    private String companyLocation;
+    private String jobStartDate;
+    String homeEmail;
+    String homePhone;
+    String workEmail;
+    String workPhone;
+    String facebookName;
+    private String facebookLink;
+    String instaName;
+    private String instaLink;
 
-    public String getJobPosition() {
+    String getJobPosition() {
         return jobPosition;
     }
 
-    public String getAboutMe() {
+    String getAboutMe() {
         return aboutMe;
     }
 
-    public Details(){}
+    Details(){}
 
-    public Details(String id, String fullName, String birthDate, String birthYear, String height, String aboutMe, String userLocation, String jobPosition, String companyName, String companyLocation, String jobStartDate, String homeEmail, String homePhone, String workEmail, String workPhone, String facebookName, String facebookLink, String instaName, String instaLink){
+    Details(String id, String fullName, String birthDate, String birthYear, String height, String aboutMe, String userLocation, String jobPosition, String companyName, String companyLocation, String jobStartDate, String homeEmail, String homePhone, String workEmail, String workPhone, String facebookName, String facebookLink, String instaName, String instaLink){
         this.id = id;
         this.fullName = fullName;
         this.birthDate = birthDate;
@@ -65,7 +64,7 @@ public class Details {
     }
 
     @Exclude
-    public Map<String, Object> toMap() {
+    Map<String, Object> toMap() {
         HashMap<String, Object> result = new HashMap<>();
         result.put("id", id);
         result.put("fullName",fullName);

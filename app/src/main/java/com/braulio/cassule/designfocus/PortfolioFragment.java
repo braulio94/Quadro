@@ -19,9 +19,8 @@ import java.util.List;
 public class PortfolioFragment extends Fragment {
 
     private RecyclerView mRecyclerView;
-    private TimeLineAdapter mTimeLineAdapter;
-    private List<TimeLineModel> mDataList = new ArrayList<>();
-    private Orientation mOrientation;
+    TimeLineAdapter mTimeLineAdapter;
+    List<TimeLineModel> mDataList = new ArrayList<>();
 
     public PortfolioFragment() {
         // Required empty public constructor
@@ -55,15 +54,12 @@ public class PortfolioFragment extends Fragment {
             model.setTitle(titles[a]);
         }
         */
-        mTimeLineAdapter = new TimeLineAdapter(mDataList, mOrientation);
+        mTimeLineAdapter = new TimeLineAdapter();
         mRecyclerView.setAdapter(mTimeLineAdapter);
     }
 
     private LinearLayoutManager getLinearLayoutManager() {
-
-        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity());
-        return linearLayoutManager;
-
+        return new LinearLayoutManager(getActivity());
     }
 
 }
