@@ -155,7 +155,7 @@
     </array>
 
     <array name="municipalities8">
-    <item>Selecionar Municipio</item>
+        <item>Selecionar Municipio</item>
         <item>Alto Zambeze</item>
         <item>Bundas</item>
         <item>Camanongue</item>
@@ -192,7 +192,7 @@
     </array>
 
     <array name="municipalities11">
-    <item>Selecionar Municipio</item>
+        <item>Selecionar Municipio</item>
         <item>Cacolo</item>
         <item>Dala</item>
         <item>Muconda</item>
@@ -377,6 +377,7 @@
     <string name="upload_failure">Upload falhou. Tenta novamente</string>
     <string name="select_crime">Porfavor, seleciona o tipo de crime</string>
     <string name="activity_new_post">Novo Poste</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="path_search">
+       M141,17 A9,9 0 1,1 142,16 L149,23
+    </string>
 </resources>

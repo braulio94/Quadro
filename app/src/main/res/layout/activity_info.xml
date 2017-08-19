@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:background="@color/colorBlack"
 
-    tools:context="com.braulio.cassule.designfocus.InfoActivity">
+    tools:context="com.braulio.cassule.designfocus.activity.InfoActivity">
 
     <android.support.design.widget.CoordinatorLayout
         android:layout_width="match_parent"

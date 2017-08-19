@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_marginTop="@dimen/even_larger_margin"
     android:layout_marginBottom="@dimen/even_larger_margin"
-    tools:context="com.braulio.cassule.designfocus.ContactFragment">
+    tools:context="com.braulio.cassule.designfocus.fragment.ContactFragment">
 
     <include layout="@layout/contact_layout"
         android:layout_width="match_parent"

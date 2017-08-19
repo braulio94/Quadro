@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="@color/colorBlack"
+    android:elevation="@dimen/elevation"
+    android:orientation="horizontal"
+    tools:context="com.braulio.cassule.designfocus.activity.ExploreActivity"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:onClick="close"
+        android:paddingBottom="@dimen/medium_padding"
+        android:paddingLeft="@dimen/small_padding"
+        android:paddingRight="@dimen/medium_padding"
+        android:paddingTop="@dimen/medium_padding"
+        android:src="@drawable/ic_back" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:layout_marginEnd="50dp">
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:src="@drawable/ic_search_menu" />
+
+        <EditText
+            android:id="@+id/text"
+            android:layout_width="150dp"
+            android:layout_height="22dp"
+            android:layout_gravity="end"
+            android:layout_margin="15dp"
+            android:alpha="0"
+            android:background="@null"
+            android:paddingStart="4dp"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:visibility="gone"
+            android:lines="1"
+            android:maxLength="30"/>
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:onClick="showPopupMenu"
+        android:padding="@dimen/medium_padding"
+        android:src="@drawable/ic_more" />
+
+</android.support.design.widget.CoordinatorLayout>

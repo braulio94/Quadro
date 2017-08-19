@@ -39,5 +39,7 @@
     <dimen name="nav_header_vertical_spacing">15dp</dimen>
     <dimen name="nav_header_height">200dp</dimen>
 
+    <integer name="duration_bar">800</integer>
+    <integer name="duration_search">800</integer>
 
 </resources>

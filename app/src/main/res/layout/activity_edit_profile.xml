@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.braulio.cassule.designfocus.EditProfileActivity"
+    tools:context="com.braulio.cassule.designfocus.activity.EditProfileActivity"
     android:background="@color/white"
     >
 

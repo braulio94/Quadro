@@ -7,7 +7,7 @@
     android:fitsSystemWindows="true"
     android:background="@color/colorBlack"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.braulio.cassule.designfocus.UserActivity">
+    tools:context="com.braulio.cassule.designfocus.activity.UserActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
