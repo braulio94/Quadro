@@ -86,7 +86,7 @@ public abstract class PostListFragment extends Fragment {
                 });
                 if (model.image == null){
                     return;
-                }else {
+                } else {
                     Picasso.with(getContext()).load(Uri.parse(model.image)).fit().centerCrop().into(viewHolder.imageView);
                 }
 
