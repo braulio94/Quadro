@@ -4,7 +4,7 @@
 
 Quadro is an android app, more details coming...
 
-< a href="https://play.google.com/store/apps/details?id=com.braulio.cassule.designfocus"
+< a href="https://play.google.com/store/apps/details?id=com.braulio.cassule.designfocus">
 <img src="https://vignette4.wikia.nocookie.net/wherewood/images/c/cd/1280px-Get_it_on_Google_play.svg.png/revision/latest?cb=20160126093326" width="180" height="60">
 </a>
 
